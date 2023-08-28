@@ -1,13 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import {} from "react"
+import Cabecalho from "./Cabecalho"
+
+
+
 
 function App() {
 
 
   return (
     <>
+    <Cabecalho />
      <h1>teste drive</h1>
     </>
   )
