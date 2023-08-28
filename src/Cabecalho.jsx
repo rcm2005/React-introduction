@@ -1,5 +1,6 @@
 import {} from "react"
-import Imagem from './assets/Fotodoomi.avif'
+import Imagem from './assets/foto.webp'
+import './Cabecalho.css'
 
 function Cabecalho(){
 
@@ -12,10 +13,13 @@ function Cabecalho(){
         <h1>cabeçalho</h1>
         <p>{curso}</p>
         <p>{aluno}</p>
-        <img src={Imagem} alt="N DEU" />
+        <img src={Imagem} alt="N DEU" title="Imagem" />
 
         
         
+
+
+
         </>
     )
 }

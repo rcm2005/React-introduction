@@ -1,0 +1,22 @@
+h1{
+    color: aquamarine
+
+}
+
+img{
+    width: 200px;
+    animation: Imagem 3s infinite;
+}
+
+
+@keyframes Imagem{
+    to{
+        transform: translatey();
+        opacity: 1;
+    }
+    from{
+        transform: translateY(300px);
+        opacity: 1;
+        width: 300px;
+    }
+}
