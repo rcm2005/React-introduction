@@ -12,7 +12,7 @@ function App() {
     <>
     <Footer/>
     <Cabecalho />
-     <h1>teste drive</h1>
+     <h1>test drive</h1>
     </>
   )
 }

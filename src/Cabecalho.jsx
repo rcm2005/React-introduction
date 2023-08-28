@@ -1,9 +1,19 @@
 import {} from "react"
+import Imagem from './assets/Fotodoomi.avif'
 
 function Cabecalho(){
-    return(
+
+        const aluno = "Welington";
+        const curso = "engenharia";
+
+        return(
+
         <>
-        <h1>cabesalhimis</h1>
+        <h1>cabeçalho</h1>
+        <p>{curso}</p>
+        <p>{aluno}</p>
+        <img src={Imagem} alt="N DEU" />
+
         
         
         </>
